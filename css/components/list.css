@@ -1,0 +1,26 @@
+.list-inline{
+	list-style: none;
+	margin: auto;
+	display: block;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.list-inline li{
+	padding: 30px;
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #835858;
+}
+
+.list-inline i:hover{
+	color: #206a5d;
+}
+
+.list-inline h3{
+	font-family: Patrick hand, cursive;
+	font-size: 30px;
+}

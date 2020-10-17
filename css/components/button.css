@@ -1,0 +1,19 @@
+.btn-first{
+	background-color: #7d5a5a;
+	padding: 10px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 5%;
+}
+
+.btn-snd{
+	text-decoration: none;
+	text-align: center;
+	background-color: #557571;
+	color: #e3dfc8;
+	border-radius: 10%;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+

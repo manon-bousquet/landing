@@ -1,0 +1,54 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Patrick hand, cursive;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.card{
+	background: rgb(205, 191, 175);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	box-shadow: 0px 10px 30px rgba(121, 111, 99,0.8);
+	border-radius: 60px;
+	margin-top: 50px;
+	flex-grow: 1;
+	margin: 30px 30px;
+}
+
+.card img{
+	width: 200px;
+	border-radius: 100%;
+}
+
+.card1{
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../../images/gardening.jpg);
+	padding: 20px 20px;
+}
+
+.card1 p{
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.card2{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	margin: 80px auto;
+}
+
+.card2 img{
+	width: 150px;
+	height: 100px;
+	background-size: cover;
+	display: block;
+	padding: 10px 30px;
+}
+
+.card2 a:hover{
+	background : linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
